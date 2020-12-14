@@ -57,6 +57,12 @@ php artisan make:migration create_books_table --create=books
 php artisan make:controller BookController
 
 ```
+<p>auth</p>
+
+```
+php artisan make:auth
+```
+
 <p> Create Model </p>
 
 ```
