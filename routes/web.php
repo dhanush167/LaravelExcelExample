@@ -14,3 +14,16 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/', 'BookController@addFile')->name('add');
+Route::post('/import', 'BookController@import')->name('import');
+Route::get('/books', 'BookController@showBook')->name('books');
+Route::get('/authors', 'BookController@showAuthor')->name('authors');
+
+
+Route::get('/logout', 'Auth\LoginController@logout');
+Route::get('/export/{type}', 'BookController@export')->name('export');
