@@ -22,7 +22,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
     <li>Run php artisan serve</li>
 </ol>
 
-####This Excample Laravel 5.8 Excel - Import Export
+<h4>This Excample Laravel 5.8 Excel - Import Export</h4>
 
 ```
 composer require "maatwebsite/excel:~2.1.0"
@@ -66,3 +66,11 @@ php artisan make:model Author
 php artisan make:model Book
 
 ```
+
+<hr>
+
+![excelimportexport](https://user-images.githubusercontent.com/37043938/102089648-867c7880-3e42-11eb-98a1-ce68340824f0.gif)
+
+
+
+
